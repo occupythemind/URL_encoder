@@ -15,7 +15,7 @@ A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus
 
 ## 🛠️ Setup
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
    git clone https://github.com/occupythemind/Base64URL_encoder/.git
@@ -24,7 +24,7 @@ A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus
 2. Install dependencies
 
 ```bash
-    pip install pyinputplus
+   pip install pyinputplus
 
 
 ---
@@ -39,25 +39,26 @@ Examples
 
 Encode once
 ```bash
-    python3 burl.py -p "admin/dashboard" -m encode
+   python3 burl.py -p "admin/dashboard" -m encode
 
 Encode 3 times
 ```bash
-    python3 burl.py -p "admin/dashboard" -m encode -n 3
+   python3 burl.py -p "admin/dashboard" -m encode -n 3
 
 Decode once
 ```bash
-    python3 burl.py -p "%252Fadmin" -m decode -n 1
+   python3 burl.py -p "%252Fadmin" -m decode -n 1
 
 Full decode (no -n needed)
 ```bash
-    python3 burl.py -p "%252Fadmin" -m decode
+   python3 burl.py -p "%252Fadmin" -m decode
+
 ---
 
 🧾 Help Menu
 
 ```bash
-    python3 burl.py -h
+   python3 burl.py -h
 
 USAGE:  python3 burl.py -p [payload] -m [encode/decode] -n [optional] 
 where:
