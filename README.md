@@ -18,8 +18,8 @@ A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus
 1. Clone the repository
 
 ```bash
-   git clone https://github.com/occupythemind/Base64URL_encoder/.git
-   cd Base64URL_encoder/
+git clone https://github.com/occupythemind/Base64URL_encoder/.git
+cd Base64URL_encoder/
 
 2. Install dependencies
 
