@@ -1,4 +1,4 @@
-# 🔐 Base64 URL Encoder/Decoder (Multi-Layer)
+# 🔐  URL Encoder/Decoder (Multi-Layer)
 
 A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus` and `unquote_plus` from Python's `urllib.parse`. Supports **multi-layer encoding/decoding**, and also provides a full recursive decode option.
 
@@ -18,8 +18,8 @@ A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus
 1. Clone the repository
 
 ```bash
-git clone https://github.com/occupythemind/Base64URL_encoder/.git
-cd Base64URL_encoder/
+git clone https://github.com/occupythemind/URL_encoder/.git
+cd URL_encoder/
 ```
 
 2. Install dependencies
