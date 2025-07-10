@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Base64url encoder & decoder — Accepts n (multiple layer) encoding and decoding
+# URL encoder & decoder — Accepts n (multiple layer) encoding and decoding
 
 from urllib.parse import quote_plus, unquote_plus
 import sys, pyinputplus as pinp
