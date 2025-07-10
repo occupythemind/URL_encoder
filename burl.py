@@ -45,9 +45,9 @@ if __name__ == '__main__':
 
     # Get payload
     if '-p' in args:
-        payload = args[args.index('-p') + 1]
+        payload = args[args.index('-p') + 1].encode().decode('unicode_escape')
     else:
-        payload = pinp.inputStr("Enter the URL or payload: ")
+        payload = pinp.inputStr("Enter the URL or payload: ").encode().decode('unicode_escape')
 
     # Get mode
     if '-m' in args:
