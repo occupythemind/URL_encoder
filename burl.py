@@ -2,7 +2,7 @@
 # URL encoder & decoder — Accepts n (multiple layer) encoding and decoding
 
 from urllib.parse import quote_plus, unquote_plus
-import sys, pyinputplus as pinp
+import sys, os, pyinputplus as pinp, pyperclip as pclip
 
 def _help():
     print("""USAGE:  python3 burl.py -p [payload] -m [encode/decode] -n [optional] 
@@ -66,6 +66,8 @@ if __name__ == '__main__':
         # Run full decode
         result = full_decode(payload)
         print(result)
+        pclip.copy(result)
+        print(f"\n\t[+]{os.getlogin().title()}, Payload has been copied to your clipboard.")
         sys.exit()
         
     # Execute
@@ -78,3 +80,5 @@ if __name__ == '__main__':
         sys.exit(1)
 
     print(result)
+    pclip.copy(result)
+    print(f"\n\t[+]{os.getlogin().title()}, Payload has been copied to your clipboard.")

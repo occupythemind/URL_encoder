@@ -9,8 +9,8 @@ A simple Python CLI tool to **encode or decode URLs/payloads** using `quote_plus
 - Encode or decode a payload `n` times
 - Automatically detect and fully decode deeply nested encodings
 - CLI and interactive modes
-- Lightweight, no external dependencies except `pyinputplus`
-
+- Lightweight, no external dependencies except `pyinputplus` and `pyperclip`
+- Automatically copy result payload to clipboard
 ---
 
 ## 🛠️ Setup
@@ -25,7 +25,7 @@ cd URL_encoder/
 2. Install dependencies
 
 ```bash
-pip install pyinputplus
+pip install pyinputplus pyperclip
 ```
 
 ---
