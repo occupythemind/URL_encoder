@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+
+'''VERSE: 
+
+Matthew 6:19
+(KJV) Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal:
+Matthew 6:20
+
+''' # Happy Hacking — OTM
+
 # URL encoder & decoder — Accepts n (multiple layer) encoding and decoding
 
 from urllib.parse import quote_plus, unquote_plus
